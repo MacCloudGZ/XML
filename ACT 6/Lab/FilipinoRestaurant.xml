@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FilipinoRestaurants>
+    <Restuarant>
+        <Details>
+            <Name>MALAYA</Name>
+            <OperatingHours>
+                <Days>Mon,Tue,Wed,Thu,Fri,Sat</Days>
+                <OpenTime>08:00</OpenTime>
+                <closeTime>21:30</closeTime>
+            </OperatingHours>
+            <Location>
+                <Address>Santo Thomas</Address>
+                <Street>Zone 9</Street>
+                <City>Nagaraya</City>
+                <Region>Mani</Region>
+                <Zipcode>920</Zipcode>
+                <Country>PH</Country>
+            </Location>
+            <Contact>
+                <Days>Mon,Tue,Wed,Thu,Fri,Sat</Days>
+                <OpenTime>08:00</OpenTime>
+                <closeTime>21:30</closeTime>
+            </Contact>
+        </Details>
+    </Restuarant>
+    <Menu>
+        <Dish>
+            <Name>Chiraron na Plato</Name>
+            <Description>pritong plato</Description>
+            <Price>250</Price>
+            <Currency>Peso</Currency>
+        </Dish>
+        <Dish>
+            <Name>Kalderong Natutung</Name>
+            <Description>Burned Pan</Description>
+            <Price>75</Price>
+            <Currency>Peso</Currency>
+        </Dish>
+    </Menu>
+</FilipinoRestaurants>

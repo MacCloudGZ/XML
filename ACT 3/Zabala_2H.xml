@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE UniversityScheduleSystem [
+<!ELEMENT  UniversityScheduleSystem (Courses, Professors, Schedules)>
+    <!ELEMENT Courses (Course+)>
+        <!ELEMENT Course (TITLE, CreditValue, Department, ProfessorID)*>
+        <!ELEMENT Professors (Professor+)>
+        <!ELEMENT Schedules (Schedule+)>
+            <!ATTLIST Course CourseID CDATA #REQUIRED>
+                <!ELEMENT TITLE (#PCDATA)>
+                <!ELEMENT CreditValue (#PCDATA)>
+                <!ELEMENT Department (#PCDATA)>
+                <!ELEMENT ProfessorID (#PCDATA)>
+            <!ELEMENT Professor ( Name , Specialization)*>
+                <!ATTLIST Professor ProfessorID CDATA #REQUIRED>
+                <!ELEMENT Name (#PCDATA)>
+                <!ELEMENT Specialization (#PCDATA)>
+            <!ELEMENT Schedule ( Course, Professor, Timeslot, RoomNumber )>
+            <!ELEMENT Timeslot (#PCDATA)>
+            <!ELEMENT RoomNumber (#PCDATA)>
+            
+]>
+
+<UniversityScheduleSystem>
+    <Courses>
+        <Course CourseID="CD-102">
+            <TITLE>LALA</TITLE>
+            <CreditValue>102</CreditValue>
+            <Department>CCS</Department>
+            <ProfessorID>of100</ProfessorID>
+        </Course>
+        <Course CourseID="ALS-103">
+            <TITLE>SEC ED</TITLE>
+            <CreditValue>90</CreditValue>
+            <Department>PE</Department>
+            <ProfessorID>daw21</ProfessorID>
+        </Course>
+    </Courses>
+    <Professors>
+        <Professor ProfessorID="of100">
+            <Name>VLADIMIR PUTIN</Name>
+            <Specialization>NOT ETHICAL HACKING</Specialization>
+        </Professor>
+        <Professor ProfessorID="daw21">
+            <Name>Vannessa Vlad</Name>
+            <Specialization>Hot susy Bland</Specialization>
+        </Professor>
+    </Professors>
+    <Schedules>
+        <Schedule>
+            <Course CourseID="ALS-103"/>
+            <Professor ProfessorID="of100"/>
+            <Timeslot>Monday 10:30AM-01:20PM</Timeslot>
+            <RoomNumber>ACAD101</RoomNumber>
+        </Schedule>
+        <Schedule>
+            <Course CourseID=""/>
+            <Professor ProfessorID="daw21"/>
+            <Timeslot></Timeslot>
+            <RoomNumber></RoomNumber>
+        </Schedule>
+    </Schedules>
+</UniversityScheduleSystem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carregistrations>
+        <carregistered>
+            <owner>
+                <firstname> Mabini</firstname>
+                <lastname>  Apolinario </lastname>
+                <street> 123 Main St</street>
+                <city> Springfield</city>
+                <state>IL</state>
+                <zip>62701</zip>
+                <country>USA</country>
+                <phone>0929-513-2211</phone>
+                <email>Mabiniispogi@gmail.com</email>    
+            </owner>
+            <vechicle>
+                <manifacturer>Ford</manifacturer>
+                <model>Mustang</model>
+                <year>2010</year>
+                <license>ABC123</license>
+            </vechicle>
+            <registrationdetails>
+                <regNumber>123a</regNumber> 
+            </registrationdetails>
+        </carregistered>
+</carregistrations>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="UniversityScheduleSystem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Courses">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Course" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="TITLE" type="xs:string" />
+                                        <xs:element name="CreditValue" type="xs:string" />
+                                        <xs:element name="Department" type="xs:string" />
+                                        <xs:element name="ProfessorID" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="CourseID" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Professors">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Professor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" />
+                                        <xs:element name="Specialization" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="ProfessorID" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Schedules">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Schedule" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="CourseID" type="xs:string" />
+                                        <xs:element name="Professor">
+                                            <xs:complexType>
+                                                <xs:attribute name="ProfessorID" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Timeslot" type="xs:string" />
+                                        <xs:element name="RoomNumber" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

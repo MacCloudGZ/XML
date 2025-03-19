@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecommerce>
+    <products>
+        <product productID="911" brand="Binladen">
+            <name>Two TowerTwo-Special Coffee</name>
+            <category>Energizer</category>
+            <price>9.11</price>
+            <stock>911</stock>
+        </product>
+        <product productID="69" brand="Vbla">
+            <name>Viagra</name>
+            <category>Medicine</category>
+            <price>420</price>
+            <stock>92</stock>
+        </product>
+        <product productID="91" brand="Johnson Co">
+            <name>Baby oil</name>
+            <category>Essentials</category>
+            <price>32</price>
+            <stock>192</stock>
+        </product>
+    </products>
+    <customers>
+        <!--Membership: Regular, Silver, Gold-->
+        <customer customerID="012" membership="Gold">
+            <name>Barack Obama</name>
+            <email>theFirstBlackpress@yahoo.com</email>
+            <address>Washinton DC</address>
+        </customer>
+        <customer customerID="9271" membership="Regular">
+            <name>P. Diddy</name>
+            <email>DiddyDaOne@gmail.com</email>
+            <address>Los Angeles California</address>
+        </customer>
+    </customers>
+    <orders>
+        <order>
+            <customerID>012</customerID>
+            <orderedProduct productID="911" quantity="10"></orderedProduct>
+            <totalPrice>91.1</totalPrice>
+        </order>
+        <order>
+            <customerID>9271</customerID>
+            <orderedProduct productID="91" quantity="100"></orderedProduct>
+            <orderedProduct productID="69" quantity="2"></orderedProduct>
+            <totalPrice>3384</totalPrice>
+        </order>
+    </orders>
+</ecommerce>

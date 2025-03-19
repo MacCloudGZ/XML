@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--vHeader?v-->
+<UniversityScheduleSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Zabala_2H.xsd">
+    
+    <Courses>
+       <Course CourseID="CD-102">
+            <TITLE>LALA</TITLE>
+            <CreditValue>102</CreditValue>
+            <Department>CCS</Department>
+            <ProfessorID>of100</ProfessorID>
+        </Course>
+        <Course CourseID="ALS-103">
+            <TITLE>SEC ED</TITLE>
+            <CreditValue>90</CreditValue>
+            <Department>PE</Department>
+            <ProfessorID>daw21</ProfessorID>
+        </Course>
+    </Courses>
+    <Professors>
+        <Professor ProfessorID="of100">
+            <Name>VLADIMIR PUTIN</Name>
+            <Specialization>NOT ETHICAL HACKING</Specialization>
+        </Professor>
+        <Professor ProfessorID="daw21">
+            <Name>Vannessa Vlad</Name>
+            <Specialization>Hot susy Bland</Specialization>
+        </Professor>
+    </Professors>
+    <Schedules>
+        <Schedule>
+            <CourseID>CD-102</CourseID>
+            <Professor ProfessorID="of100"/>
+            <Timeslot>Monday 10:30AM-01:20PM</Timeslot>
+            <RoomNumber>ACAD101</RoomNumber>
+        </Schedule>
+        <Schedule>
+            <CourseID>ALS-103</CourseID>
+            <Professor ProfessorID="daw21"/>
+            <Timeslot></Timeslot>
+            <RoomNumber></RoomNumber>
+        </Schedule>
+    </Schedules>
+</UniversityScheduleSystem>

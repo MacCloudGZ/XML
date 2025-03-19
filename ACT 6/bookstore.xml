@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookstore.xml>
+    <book category="Fiction" isbn="OF-103C">
+        <title>Programing</title>
+        <author>hackin</author>
+        <price>29.99</price>
+    </book>
+</bookstore.xml>
