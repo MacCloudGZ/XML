@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookstore.xml>
+    <book category="Fiction" isbn="OF-103C">
+        <title>Programing</title>
+        <author>hackin</author>
+        <price>29.99</price>
+        <year>1920</year>
+    </book>
+    <book category="Science" isbn="SC-456A">
+        <title>Physics Fundamentals</title>
+        <author>Jane Doe</author>
+        <price>49.99</price>
+        <year>2015</year>
+    </book>
+    <book category="History" isbn="HS-789B">
+        <title>World War II</title>
+        <author>John Smith</author>
+        <price>39.99</price>
+        <year>2001</year>
+    </book>
+    <book category="Technology" isbn="TE-321D">
+        <title>Artificial Intelligence</title>
+        <author>Alan Turing</author>
+        <price>59.99</price>
+        <year>2020</year>
+    </book>
+</bookstore.xml>
