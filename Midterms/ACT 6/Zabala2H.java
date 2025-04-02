@@ -1,3 +1,5 @@
+package Midterms.Lab;
+
 import java.io.File;
 import java.util.Scanner;
 import org.w3c.dom.*;

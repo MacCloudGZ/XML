@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-    <book>
+    <book id="1">
         <title>Effective Java</title>
         <author>Joshua Bloch</author>
         <year>2018</year>
@@ -8,7 +8,7 @@
         <genre>Programming</genre>
         <price>45.00</price>
     </book>
-    <book>
+    <book id="2">
         <title>Clean Code</title>
         <author>Robert C. Martin</author>
         <year>2008</year>
@@ -16,7 +16,7 @@
         <genre>Software Engineering</genre>
         <price>37.99</price>
     </book>
-    <book>
+    <book id="3">
         <title>The Pragmatic Programmer</title>
         <author>Andrew Hunt, David Thomas</author>
         <year>1999</year>
@@ -24,7 +24,7 @@
         <genre>Programming</genre>
         <price>42.50</price>
     </book>
-    <book>
+    <book id="4">
         <title>Design Patterns</title>
         <author>Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</author>
         <year>1994</year>
@@ -32,7 +32,7 @@
         <genre>Software Design</genre>
         <price>50.00</price>
     </book>
-    <book>
+    <book id="5">
         <title>Refactoring</title>
         <author>Martin Fowler</author>
         <year>1999</year>
@@ -40,7 +40,7 @@
         <genre>Software Engineering</genre>
         <price>47.99</price>
     </book>
-    <book>
+    <book id="6">
         <title>Head First Design Patterns</title>
         <author>Eric Freeman, Elisabeth Robson</author>
         <year>2004</year>
@@ -48,7 +48,7 @@
         <genre>Software Design</genre>
         <price>45.99</price>
     </book>
-    <book>
+    <book id="7">
         <title>Code Complete</title>
         <author>Steve McConnell</author>
         <year>2004</year>
@@ -56,7 +56,7 @@
         <genre>Programming</genre>
         <price>39.99</price>
     </book>
-    <book>
+    <book id="8">
         <title>The Mythical Man-Month</title>
         <author>Frederick P. Brooks Jr.</author>
         <year>1975</year>
@@ -64,7 +64,7 @@
         <genre>Software Engineering</genre>
         <price>35.00</price>
     </book>
-    <book>
+    <book id="9">
         <title>Java Concurrency in Practice</title>
         <author>Brian Goetz</author>
         <year>2006</year>
@@ -72,7 +72,7 @@
         <genre>Programming</genre>
         <price>48.50</price>
     </book>
-    <book>
+    <book id="10">
         <title>Working Effectively with Legacy Code</title>
         <author>Michael C. Feathers</author>
         <year>2004</year>
@@ -80,7 +80,7 @@
         <genre>Software Engineering</genre>
         <price>40.00</price>
     </book>
-    <book>
+    <book id="11">
         <title>Patterns of Enterprise Application Architecture</title>
         <author>Martin Fowler</author>
         <year>2002</year>
@@ -88,7 +88,7 @@
         <genre>Software Architecture</genre>
         <price>49.99</price>
     </book>
-    <book>
+    <book id="12">
         <title>Introduction to the Theory of Computation</title>
         <author>Michael Sipser</author>
         <year>1996</year>

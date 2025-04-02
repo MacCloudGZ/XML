@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "learningtask_zabala",
+      "request": "launch",
+      "mainClass": "learningtask_zabala",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "XPathExample",
+      "request": "launch",
+      "mainClass": "FInals.XPathExample",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "DOMParser",
+      "request": "launch",
+      "mainClass": "DOMParser",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "Zabala2H",
+      "request": "launch",
+      "mainClass": "Lab.Zabala2H",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "StaXReaderExample",
+      "request": "launch",
+      "mainClass": "StaXReaderExample",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "StaXReaderExample2",
+      "request": "launch",
+      "mainClass": "StaXReaderExample2",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "XPathExample",
+      "request": "launch",
+      "mainClass": "XPathExample",
+      "projectName": "XML_d4bf6bcd"
+    },
+    {
+      "type": "java",
+      "name": "Zabala_2H",
+      "request": "launch",
+      "mainClass": "Zabala_2H",
+      "projectName": "XML_d4bf6bcd"
+    }
+  ]
+}
