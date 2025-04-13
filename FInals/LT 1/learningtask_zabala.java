@@ -28,9 +28,10 @@ public class learningtask_zabala {
                 System.out.println(" - " + no2.item(i).getTextContent());
             }
             System.err.println(" ");
-            String output = xPath.evaluate("//book[title = 'The Pragmatic Programmer']/price", doc);
-            System.err.println("The Price of the Pragmatic Programmer: " + output);
+            String no3 = xPath.evaluate("//book[title = 'The Pragmatic Programmer']/price", doc);
+            System.err.println("The Price of the Pragmatic Programmer: " + no3);
 
+            System.err.println(" ");
             NodeList no4 = (NodeList) xPath.evaluate("//book[publisher = 'Addison-Wesley']/title", doc, XPathConstants.NODESET);
             System.out.println("Book Titles that is under Addison-Wesley");
             for (int i = 0; i < no4.getLength(); i++) {

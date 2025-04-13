@@ -1,5 +1,3 @@
-package FInals;
-
 import java.io.File;
 import javax.xml.parsers.*;
 import javax.xml.xpath.*;
@@ -28,8 +26,7 @@ public class XPathExample {
             String output = xPath.evaluate("//book[@id='" + bookId + "']/" + targetFile + "", doc);
             System.out.println("Author of Book with ID " + bookId + ": " + output);
 
-        } catch (IOException | ParserConfigurationException | XPathExpressionException | DOMException
-                | SAXException e) {
+        } catch (ParserConfigurationException | XPathExpressionException | DOMException e) {
             e.printStackTrace();
         }
     }
