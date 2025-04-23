@@ -1,0 +1,36 @@
+<restaurant name="Delish Diner">
+    <menu type="dine-in">
+        <item id="m1" available="true">
+            <name>Cheeseburger</name>
+            <category>Burger</category>
+            <price currency="USD">5.99</price>
+            <ingredients>
+                <ingredient>Beef Patty</ingredient>
+                <ingredient>Cheddar</ingredient>
+                <ingredient>Lettuce</ingredient>
+            </ingredients>
+        </item>
+        <item id="m2" available="false">
+            <name>Veggie Pizza</name>
+            <category>Pizza</category>
+            <price currency="USD">8.99</price>
+            <ingredients>
+                <ingredient>Bell Peppers</ingredient>
+                <ingredient>Olives</ingredient>
+                <ingredient>Mozzarella</ingredient>
+            </ingredients>
+        </item>
+    </menu>
+    <menu type="takeout">
+        <item id="t1" available="true">
+            <name>Grilled Cheese</name>
+            <category>Sandwich</category>
+            <price currency="USD">3.99</price>
+        </item>
+        <item id="t2" available="true">
+            <name>Chicken Nuggets</name>
+            <category>Appetizer</category>
+            <price currency="USD">4.49</price>
+        </item>
+    </menu>
+</restaurant>
